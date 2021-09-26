@@ -1,5 +1,5 @@
 #!/bin/bash
 touch "\*\\'"DevOps"\'\\*$\?\*\*\*\*\*:)"
 echo "Hello DevOps" >> "\*\\'"DevOps"\'\\*$\?\*\*\*\*\*:)"
-
+chmod 0764 "\*\\'"DevOps"\'\\*$\?\*\*\*\*\*:)"
 
