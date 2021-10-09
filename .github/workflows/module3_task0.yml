@@ -1,14 +1,21 @@
 name: module3_task0
+
 on:
   push:
-    branches: [$default-branch]
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
   schedule:
     - cron: '5 9 * * *'
+
 jobs:
- build:
+  build:
+
     runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - name: Run check make
-        run: make help
+
+    steps: 
+    - name: Check out repository code
+    - uses: actions/checkout@v2
+    
+    - name: Run check make
+      run: make help
