@@ -3,7 +3,7 @@ on:
   push:
     branches: [$default-branch]
   schedule:
-    - cron: '30 5 * * *'
+    - cron: '5 9 * * *'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
