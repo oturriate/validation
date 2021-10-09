@@ -27,6 +27,5 @@ Side information: To use the application in a special environment use ```lorem i
 ## Workflow
 ***
 Give instructions on how to use workflow module3_task0 in GitHub.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
+> As part of DevOps EDx Course. 
+
