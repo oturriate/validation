@@ -15,7 +15,7 @@ jobs:
 
     steps: 
     - name: Check out repository code
-    - uses: actions/checkout@v2
+      uses: actions/checkout@v2
     
     - name: Run check make
       run: make help
