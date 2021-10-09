@@ -1,4 +1,4 @@
-name: GitHub Actions Module 0 Tkas 1
+name: module3_task0
 on:
   push:
     branches: [$default-branch]

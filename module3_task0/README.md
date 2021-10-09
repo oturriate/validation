@@ -2,7 +2,7 @@
 1. [General Info](#general-info)
 2. [Prerequisites](#prerequisites)
 3. [Lifecycle](#Lifecycle)
-4. [Collaboration](#collaboration)
+4. [Workflow](#Workflow)
 ### General Info
 ***
 Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
@@ -24,9 +24,9 @@ $ npm install
 $ npm start
 ```
 Side information: To use the application in a special environment use ```lorem ipsum``` to start
-## Collaboration
+## Workflow
 ***
-Give instructions on how to collaborate with your project.
+Give instructions on how to use workflow module3_task0 in GitHub.
 > Maybe you want to write a quote in this part. 
 > It should go over several rows?
 > This is how you do it.
