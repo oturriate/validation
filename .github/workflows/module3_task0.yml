@@ -1,0 +1,14 @@
+name: GitHub Actions Module 0 Tkas 1
+on:
+  push:
+    branches: [$default-branch]
+  schedule:
+    - cron: '30 5 * * *'
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Run check make
+        run: make help
